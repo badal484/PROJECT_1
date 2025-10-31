@@ -5,7 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+*{
+margin: 0%;
+padding: 0%;
+    }
+header{
+height:90px ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(253, 254, 254);
+border-bottom: 1px solid black;
+}
+input{
+    height: 30px;
+    width: 360px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(240, 243, 243);
+}
+.src{
+position: relative;
+left: -200px;
+background-color: aliceblue;
+border: 0;
+font-size: 1.2rem;
+}
+.src:hover{
+cursor: pointer;
+}
+input:hover{
+    cursor: default;
+}
+nav{
+display: flex;
+justify-content: space-evenly;
+flex-grow: 0.2;
+}
+a{
+color: black;
+text-decoration: none;
+}
+h3{
+font-size: medium;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 200;
+}
+h2{
+padding: 20px;
+font-family: monospace;
+}
+.exp{
+position: relative;
+top: -137px;
+font-size: larger;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 200;
+}
+.wb{
+border-radius: 20px;
+}
+img{
+border-radius: 50%;
+}
+img:hover{
+cursor: pointer;
+}
+.prod{
+position: relative;
+top: -130px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.contain{
+margin-top: 40px;
+display: flex;
+justify-content: center ;
+gap: 30px;
+}
+.inn{
+font-size: 1.5rem;
+position: relative;
+top: -270px;
+left: 70px;
+}
+</style>
 <body>
-    
+<header>
+    <h2>E-Maxx</h2>
+    <input type="text" placeholder="Search ">
+    <button class="src">🔍</button>
+    <nav><a href="#">Home 🏠</a>
+        <a href="#">Cart 🛒</a>
+        <a href="#"> Profile 👤</a>
+        <a href="#">Sign in </a>
+    </nav>
+</header>
+
+<div class="contain" >
+
+<div class="mid" > <img class="wb" src="https://img.freepik.com/premium-photo/shopping-cart-gift-box-black-background-gifts_53876-625594.jpg?semt=ais_hybrid&w=740&q=80" alt="" height="350px" width="600px"> 
+
+<div class="inn">
+<h1>Discount </h1>
+<h2> upto 70%</h2>
+</div>
+</div>
+<div class="big" > <img class="wb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbsbrpe2_wUYDGy082YvzzTgVQUE32G7A9w&s" alt="" height="300px" width="400px"> </div>
+</div>
+<br>
+<br>
+<h1 class="exp" style="margin-left: 160px;">Explore Popular Categories</h1>
+
+<div class="prod">
+<div >
+<img src="https://img.freepik.com/free-photo/still-life-wireless-cyberpunk-headphones_23-2151072230.jpg?semt=ais_hybrid&w=740&q=80" height="130px" width="130px">
+<h3>Electronics</h3>
+</div>
+<div>
+<img src="https://img.theloom.in/blog/wp-content/uploads/2022/07/gsfs16c-e1657372109399.png" height="130px" width="130px">
+<h3>Fashion</h3>
+</div>
+<div>
+<img src="https://static.fibre2fashion.com//articleresources/images/71/7074/SAdobeStock_247321133_Small.jpg"height="130px" width="130px">
+<h3>Beauty</h3>
+</div>
+<div>
+<img src="https://images.ctfassets.net/bjlp9d7o6h1o/7b0YKFSA3pKq9sRBzyBuOe/73f1ee3d0b2e029411f86b2992b9fb1f/Opendoor_2024_Home_Decor_Report_Blog_Header_2.jpg"height="130px" width="130px">
+<h3>Home Decor</h3>
+</div>
+<div>
+<img src="https://images-cdn.ubuy.co.in/67e2d6d0c68f0906cc63df9b-poedagar-men-watch-luxury-business.jpg" height="130px" width="130px">
+<h3>Luxury</h3>
+</div>
+<div>
+<img src="https://images.pexels.com/photos/18155790/pexels-photo-18155790/free-photo-of-designer-sneakers-in-a-studio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="130px" width="130px">
+<h3>Sneakers</h3>
+</div>
+
+
+</div>
 </body>
 </html>
